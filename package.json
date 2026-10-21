@@ -1,0 +1,10 @@
+{
+  "name": "pantrychef",
+  "version": "2.1.0",
+  "private": true,
+  "description": "PantryChef full-stack MVP with PostgreSQL and modern food-lifestyle UI",
+  "type": "module",
+  "scripts": {"start": "node src/server.js", "dev": "node --watch src/server.js", "test": "node --test", "db:init": "node scripts/init-db.js"},
+  "engines": {"node": ">=20"},
+  "dependencies": {"dotenv": "^16.4.7", "express": "^4.21.2", "pg": "^8.13.1"}
+}
